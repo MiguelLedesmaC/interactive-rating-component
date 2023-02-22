@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light_Grey: hsl(217, 12%, 63%);
+    --Medium_Grey: hsl(216, 12%, 18%);
+    --Dark_Blue: hsl(213,28%,12%);
+    --Very_Dark_Blue: hsl(216, 12%, 8%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--Very_Dark_Blue);
+    font-family: 'Overpass', sans-serif;
+}
+
+.card-rated,
+.thankyou {
+    margin: 152px auto;
+    background-color: var(--Dark_Blue);
+    width: 358px;
+    height: 358px;
+    border-radius: 14px;
+    padding: 24px;
+}
+.card-rated__star {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--Medium_Grey);
+    margin-bottom: 21px;
+}
+h1 {
+    color: var(--White);
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+p {
+    color: var(--Light_Grey);
+    font-size: 0.97em;
+    margin-bottom: 21px;
+}
+.card-rated__buttons{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.card-rated__buttons button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--Medium_Grey);
+    border:none;
+    color: var(--Light_Grey);
+    margin-bottom: 21px;
+}
+.card-rated__buttons button:hover {
+    background-color: var(--Light_Grey);
+    color: var(--White);
+    cursor: pointer;
+}
+.card-rated__buttons button:focus {
+    background-color: var(--Orange);
+    color: var(--White);
+}
+#submit {
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: var(--Orange);
+    color: var(--White);
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+#submit:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+    cursor: pointer;
+}
+.thankyou {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thankyou__image {
+    width: 130px;
+    margin-bottom: 21px;
+}
+.thankyou__selection {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: var(--Medium_Grey);
+    color: var(--Orange);
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+.thankyou p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    color: var(--Orange); 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: var(--Light_Grey); 
+}
