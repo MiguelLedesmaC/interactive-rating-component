@@ -13,7 +13,7 @@ Una tarjeta interactiva de puntuacion hecha con, Html, css y javascript la cual 
 
 
 ## Ver ejemplo en vivo
-✔️[demo](ENLACEGITHUBPAGES)
+✔️[demo](https://miguelledesmac.github.io/interactive-rating-component/)
 
 ## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en la demo
